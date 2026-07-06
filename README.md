@@ -6,6 +6,8 @@ board" I/O bus (buttons/switches in, a 3x3 grid of red/blue cell LEDs wired
 off-board that represent actual player moves, and onboard RGB LEDs used only
 for debugging FSM state).
 
+<img width="582" height="745" alt="TicTacToePLD" src="https://github.com/user-attachments/assets/601cdc14-5bb9-428d-8765-e5f4963d3929" />
+
 ## Overview
 
 The design (`tictactoefinal.v`) is a single Moore-style FSM (`tictactoefinal`)
