@@ -64,7 +64,7 @@ outputs clear and the FSM returns to state `A`.
 
 ## State Machine
 
-12 states are defined (`A` through `K`, 4-bit encoded), grouped into three
+11 states are defined (`A` through `K`, 4-bit encoded), grouped into three
 phases:
 
 - **A → D**: Players select one of the 9 cells via
