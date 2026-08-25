@@ -584,7 +584,7 @@ J: if (LB_XIOLA[6] == 1 && LB_XIOLA[4] == 1 && LB_XIOLA[2] == 1 || LB_XIOLA[0] =
  LB_XIOH[6] <= 0;
  LB_COMM[1] <= 0;
  curstate <= #1 K;
-end else if (LB_XIOLA[7] <= 1 && LB_XIOLA[5] == 1 && LB_XIOLA[3] == 1 || LB_XIOLA[1] == 1 && LB_XIOH[0] == 1 && LB_XIOH[2] == 1 || LB_XIOH[4] == 1 && LB_XIOH[6] == 1 && LB_COMM[1] == 1 || LB_XIOLA[7] <= 1 && LB_XIOLA[1] == 1 && LB_XIOH[4] == 1 || LB_XIOLA[5] == 1 && LB_XIOH[0] == 1 && LB_XIOH[6] == 1 || LB_XIOLA[3] == 1 && LB_XIOH[2] == 1 && LB_COMM[1] == 1 || LB_XIOLA[7] <= 1 && LB_XIOH[0] == 1 && LB_COMM[1] == 1 || LB_XIOLA[3] == 1 && LB_XIOH[0] == 1 && LB_XIOH[4] == 1)
+end else if (LB_XIOLA[7] == 1 && LB_XIOLA[5] == 1 && LB_XIOLA[3] == 1 || LB_XIOLA[1] == 1 && LB_XIOH[0] == 1 && LB_XIOH[2] == 1 || LB_XIOH[4] == 1 && LB_XIOH[6] == 1 && LB_COMM[1] == 1 || LB_XIOLA[7] <= 1 && LB_XIOLA[1] == 1 && LB_XIOH[4] == 1 || LB_XIOLA[5] == 1 && LB_XIOH[0] == 1 && LB_XIOH[6] == 1 || LB_XIOLA[3] == 1 && LB_XIOH[2] == 1 && LB_COMM[1] == 1 || LB_XIOLA[7] <= 1 && LB_XIOH[0] == 1 && LB_COMM[1] == 1 || LB_XIOLA[3] == 1 && LB_XIOH[0] == 1 && LB_XIOH[4] == 1)
 begin
  LB_XIOLA[6] <= 1;
  LB_XIOLA[4] <= 1;
